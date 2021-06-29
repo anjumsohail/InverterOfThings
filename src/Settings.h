@@ -18,7 +18,8 @@ class Settings
     String _mqttUser = "";
     String _mqttPassword = "";
     short  _mqttPort = 30;
-
+String _DebugLog = "";
+  
     short readShort(int offset)
     {
       byte b1 = EEPROM.read(offset + 0);

@@ -17,7 +17,7 @@ class Settings
     String _readConfigApiKey = "";
     String _writeConfigApiKey = "";
     short  _updateRateSec = 30;
-
+ String _DebugLog = "";
     short readShort(int offset)
     {
       byte b1 = EEPROM.read(offset + 0);
